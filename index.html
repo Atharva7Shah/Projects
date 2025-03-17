@@ -14,8 +14,8 @@
             <ul>
                 <li><a href="#About LTS">About <abbr title="The Little taco Shop">LTS</abbr></a></li>
                 <li><a href="#Menu">Our Menu</a></li>
-                <li><a href="/HTML_PROJECT/hours.html">Store Hours</a></li>
-                <li><a href="/HTML_PROJECT/contact.html">Contact Us</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
             </ul>
         </nav>
         <hr>
@@ -43,21 +43,52 @@
         </aside>
         </section>
 <hr>
-        <section id="Menu">
-            <h2>Our Menu</h2>   
-            <table>
-                <thead>
-                <th>Our Tacos</th>
-                <tr>Tacos</tr>
-                <tr>Quantity</tr>
-                <tr>Price</tr>
-            </thead>
-            <tbody>
-                
-            </tbody>
-            </table>
-        </section>
-        <hr>
+<section id="Menu">
+    <h2>Our Menu</h2>
+    <table border="1" style="border-collapse: collapse; width: 10%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Tacos</th>
+                <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="3">Crunchy</th>
+                <td>1</td>
+                <td>&#8377; 1.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>&#8377; 2.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&#8377; 3.25</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="3">Soft</th>
+                <td>1</td>
+                <td>&#8377; 2.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>&#8377; 3.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&#8377; 4.50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Chips &amp; Salsa &#8377;2</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+        <br>
         </main>
         <a href="#">Back To Top</a>
         <hr>
